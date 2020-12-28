@@ -1,0 +1,635 @@
+@charset "utf-8";
+@import url(../../common/css/reset.css);
+@import url(../../common/css/layout.css);
+@import url(../../common/css/bullet.css);
+@import url(../../common/css/button.css);
+@import url(../../common/css/fonts.css);
+@import url(../../common/css/other.css);
+
+/* common */
+
+.body_shop .more
+{position:absolute;top:8px;right:2px;padding-right:8px;
+background:url(../../common/img/icon/arrow.gif) right -52px no-repeat;font:11px '돋움','Dotum';color:#909090;letter-spacing:-1px}
+.body_shop .more:hover
+{color:#666}
+
+.body_shop h3
+{padding:0.4em 0;font:15px '나눔바른고딕','NanumBarunGothic';}
+
+.body_shop .btn
+{display:block;overflow:hidden;width:38px;height:19px;margin:0 auto;
+background:url(../../common/img/btn/normal.gif) 2px top no-repeat;font:noraml 11px '돋움','Dotum';color:#555;line-height:19px;text-align:center;letter-spacing:-1px}
+.body_shop .btn:hover
+{color:#333 !important}
+
+.body_shop .poker,
+.section_goods .poker
+{overflow:hidden;padding-left:16px;background:url(../../common/img/icon/m_poker.gif) left 30% no-repeat;
+font:bold 12px '돋움','Dotum';color:#2854bf}
+.body_shop .gostop,
+.section_goods .gostop
+{overflow:hidden;padding-left:16px;background:url(../../common/img/icon/m_gostop.gif) left 30% no-repeat;
+font:bold 12px '돋움','Dotum';color:#db0e00}
+
+.section_shopinfo
+{position:relative;overflow:hidden;}
+.section_shopinfo > div
+{overflow:hidden;width:99.4%;padding:2em 0;background:#fdfdfd;border:1px solid #ddd;font:normal 11px '돋움','Dotum';color:#777}
+.section_shopinfo p
+{display:block;overflow:hidden;margin:0 0 1em 1.6em;letter-spacing:-1px}
+.section_shopinfo strong
+{display:block;margin:0 0 0.6em 0;font-size:1.4em;color:#000;font-weight:bold;}
+.section_shopinfo ul
+{display:block;overflow:hidden;margin:1.6em 0 0 1.6em}
+.section_shopinfo li
+{*display:inline;float:left;overflow:hidden;margin-right:20px;}
+.section_shopinfo li a
+{padding-right:8px;background:url(../../common/img/icon/arrow.gif) right -52px no-repeat;font-size:11px;color:#909090;letter-spacing:-1px}
+.section_shopinfo li a:hover
+{color:#666}
+.section_shopinfo .btn
+{float:right;overflow:hidden;width:222px;height:46px;margin:-68px 20px 0 0;background:url(../img/btn.gif) left -55px no-repeat;
+font:bold 1.4em '돋움';text-align:center;line-height:46px}
+.section_shopinfo .btn a
+{color:#ddd}
+.section_shopinfo .btn a:hover
+{text-decoration:underline}
+
+/* layout */
+body
+{font:12px '굴림','Gulim';color:#444}
+
+.container_pokershop
+{background:url(../../shop/img/poker/visual.jpg) center -8px no-repeat}
+.container_gostopshop
+{background:url(../../shop/img/gostop/visual.jpg) center -8px no-repeat}
+.container_gostopshop .info_money
+{background:url(../../common/img/layout_info.gif) left -1px no-repeat}
+.container_gostopshop .info_money li
+{background:url(../../common/img/icon/m_gostop.gif) 58px 10px no-repeat;border-bottom:1px solid #f0d7d7}
+.container_gostopshop .info_money li strong
+{color:#b52d2d}
+.container_gostopshop .info_money .cash strong
+{color:#333}
+.container_gostopshop .info_money li strong span
+{font-size:11px;font:normal 11px '돋움','Dotum';color:#333;letter-spacing:0px}
+
+.container_gostopshop .gamemoney .btn
+{background:url(../../common/img/layout_info.gif) -480px top no-repeat;}
+
+.container_gostopshop .section_info .freecharge
+{overflow:hidden;width:99.4%;margin-left:1px;padding:14px 0;
+background:#fde8e8 url(../../common/img/layout_info.gif) 10px -165px no-repeat;border-bottom:1px solid #ddd;
+text-align:center;font:11px '돋움','Dotum';}
+
+.shop_header
+{overflow:hidden;width:1180px;height:130px;margin:0 auto;}
+
+.shop_header .banner
+{*display:inline;float:right;overflow:hidden;margin:14px 220px 0 0}
+.container_gostopshop .shop_header .banner
+{margin:14px 180px 0 0}
+
+.container_pokershop h2
+{*display:inline;float:left;overflow:hidden;width:117px;height:43px;margin:28px 0 0 20px}
+.container_pokershop h2 a
+{display:block;width:100%;height:100%;background:url(../img/poker/logo.png) center top no-repeat;
+line-height:0;text-indent:-9999px}
+
+.container_gostopshop h2
+{*display:inline;float:left;overflow:hidden;width:134px;height:44px;margin:28px 0 0 20px}
+.container_gostopshop h2 a
+{display:block;width:100%;height:100%;background:url(../img/gostop/logo.png) center top no-repeat;
+line-height:0;text-indent:-9999px}
+
+.shop_header .menu
+{*display:inline;float:left;overflow:hidden;margin:34px 0 0 30px}
+.container_gostopshop .shop_header .menu
+{margin:34px 0 0 50px}
+.shop_header .menu li
+{*display:inline;float:left;overflow:hidden;padding:0 10px}
+.shop_header .menu li a
+{display:block;overflow:hidden;height:29px;}
+
+.container_pokershop .shop_header .menu li
+{background:url(../img/poker/menu.png) left 50% no-repeat}
+.container_pokershop .shop_header .menu li a
+{background:url(../img/poker/menu.png) -277px 0px no-repeat;line-height:0;text-indent:-9999px;}
+.container_pokershop .shop_header .menu .avatar
+{background:none}
+.container_pokershop .shop_header .menu .avatar a
+{width:85px}
+.container_pokershop .shop_header .menu .avatar a:hover,
+.container_pokershop .shop_header .menu .avatar .on
+{background-position:-277px -29px}
+.container_pokershop .shop_header .menu .pass a
+{width:72px;background-position:-374px 0px}
+.container_pokershop .shop_header .menu .pass a:hover,
+.container_pokershop .shop_header .menu .pass .on
+{background-position:-374px -29px}
+.container_pokershop .shop_header .menu .item a
+{width:85px;background-position:-457px 0px}
+.container_pokershop .shop_header .menu .item a:hover,
+.container_pokershop .shop_header .menu .item .on
+{background-position:-457px -29px}
+.container_pokershop .shop_header .menu .free a
+{width:110px;background-position:-554px 0px}
+.container_pokershop .shop_header .menu .free a:hover,
+.container_pokershop .shop_header .menu .free .on
+{background-position:-554px -29px}
+
+.container_gostopshop .shop_header .menu li
+{background:url(../img/gostop/menu.png) left 50% no-repeat}
+.container_gostopshop .shop_header .menu li a
+{background:url(../img/gostop/menu.png) -231px 0px no-repeat;line-height:0;text-indent:-9999px;}
+.container_gostopshop .shop_header .menu .avatar
+{background:none}
+.container_gostopshop .shop_header .menu .avatar a
+{width:98px}
+.container_gostopshop .shop_header .menu .avatar a:hover,
+.container_gostopshop .shop_header .menu .avatar .on
+{background-position:-231px -29px}
+.container_gostopshop .shop_header .menu .pass a
+{width:84px;background-position:-351px 0px}
+.container_gostopshop .shop_header .menu .pass a:hover,
+.container_gostopshop .shop_header .menu .pass .on
+{background-position:-351px -29px}
+.container_gostopshop .shop_header .menu .item a
+{width:98px;background-position:-458px 0px}
+.container_gostopshop .shop_header .menu .item a:hover,
+.container_gostopshop .shop_header .menu .item .on
+{background-position:-458px -29px}
+.container_gostopshop .shop_header .menu .free a
+{width:121px;background-position:-579px 0px}
+.container_gostopshop .shop_header .menu .free a:hover,
+.container_gostopshop .shop_header .menu .free .on
+{background-position:-579px -29px}
+
+#footer h4
+{position:absolute;overflow:hidden;top:1px !important;left:1060px;width:119px;height:29px;
+background:url(../../common/img/logo_mangosoft.png) left bottom no-repeat !important}
+
+/* body_shop - main */
+#shopmain .section_avatar
+{*display:inline;float:left;width:48%;margin-bottom:30px;}
+
+#shopmain .section_avatar
+{position:relative;overflow:hidden;margin-bottom:10px;padding-bottom:10px;}
+#shopmain .section_avatar .etabs
+{overflow:hidden;margin:0;padding:0;}
+#shopmain .section_avatar .tab
+{display:inline-block;zoom:1;*display:inline;float:left;margin-right:1px;font-size:13px;text-align:center}
+#shopmain .section_avatar .tab a
+{display:block;width:132px;height:33px;background:url(../img/tab.gif) left top no-repeat;
+font:normal 0.95em '나눔바른고딕','NanumBarunGothic';line-height:33px;color:#777;outline:none}
+#shopmain .section_avatar .tab a:hover
+{color:#444}
+#shopmain .section_avatar .tab.active
+{position:relative;top:1px;background:#ffffff}
+#shopmain .section_avatar .tab a.active
+{background-position:0px -43px;color:#fff}
+
+#shopmain .tab_avatar
+{overflow:hidden;width:99.4%;padding-bottom:20px;border:1px solid #ddd}
+#shopmain .tab_avatar ul
+{overflow:hidden;}
+#shopmain .tab_avatar li
+{*display:inline;float:left;overflow:hidden;width:33%;margin-top:10px}
+#shopmain .tab_avatar .avatar
+{width:100px;height:116px;margin:10px auto 0;background:#ffffff;border:1px solid #dadada;text-align:center}
+#shopmain .tab_avatar .avatar img
+{margin:0 auto;}
+#shopmain .tab_avatar .info
+{overflow:hidden;width:102px;margin:6px auto 4px;padding:0 0 8px 0;
+background:#fbfbfb;text-align:center}
+#shopmain .tab_avatar .info strong
+{display:block;overflow:hidden;margin-bottom:6px;padding:2px 0 6px 0;background:#ffffff;color:#000;text-align:center}
+#shopmain .tab_avatar .info .cash
+{margin:8px 0;}
+#shopmain .tab_avatar .info .poker
+{margin:8px 0;}
+#shopmain .tab_avatar .info i
+{display:block;overflow:hidden;margin-top:4px;font:11px '돋움','Dotum';color:#898989;letter-spacing:-1px}
+
+#shopmain .section_item
+{*display:inline;position:relative;float:right;width:48%;margin-bottom:30px;border-bottom:1px solid #ddd}
+#shopmain .section_item h3
+{border-bottom:2px solid #ddd}
+#shopmain .section_item > ul
+{overflow:hidden;width:98%;margin:0 auto;padding:6px 0}
+#shopmain .section_item li
+{position:relative;display:block;overflow:hidden;margin:5px 0}
+#shopmain .section_item .item
+{*display:inline;float:left;text-align:center}
+#shopmain .section_item .info
+{*display:inline;overflow:hidden;float:right;width:76%;margin-top:6px;
+background:url(../../common/img/icon/dot3.gif) left 20px repeat-x;text-align:left}
+#shopmain .section_item .info strong
+{padding:6px 0 6px 2px;font-weight:bold}
+#shopmain .section_item .info .cash
+{display:inline-block;float:right;width:16%;margin-right:46px;}
+#shopmain .section_item ul ul
+{overflow:hidden;width:98%;margin:16px auto 0}
+#shopmain .section_item li li
+{display:block;margin:0px;padding:2px 0 2px 4px;background:url(../../common/img/icon/bullet.gif) left -112px no-repeat;font:11px '돋움','Dotum';color:#aaa;letter-spacing:-1px}
+
+#shopmain .section_item .btn
+{position:absolute;top:10;right:0}
+
+#shopmain .section_pass
+{display:block;clear:both;margin-bottom:30px}
+
+#shopmain .pass_avatar
+{width:99.6%;padding:10px 0 30px;margin:-4px 0 0 0;border:1px solid #d3d3d3;border-bottom-width:3px;background:#fbfbfb}
+#shopmain .pass_avatar ul
+{overflow:hidden;}
+#shopmain .pass_avatar li
+{*display:inline;float:left;overflow:hidden;width:16.6%;margin-top:10px}
+#shopmain .pass_avatar .avatar
+{width:100px;height:116px;margin:10px auto 0;background:#ffffff;border:1px solid #dadada;text-align:center}
+#shopmain .pass_avatar .avatar img
+{margin:0 auto;}
+#shopmain .pass_avatar .info
+{overflow:hidden;width:102px;margin:6px auto 4px;padding:0 0 8px 0;
+background:#ececec;text-align:center}
+#shopmain .pass_avatar .info strong
+{display:block;overflow:hidden;margin-bottom:6px;padding:2px 0 6px 0;background:#fbfbfb;color:#000;text-align:center}
+#shopmain .pass_avatar .info .cash
+{display:none;margin:8px 0;}
+#shopmain .pass_avatar .info .poker
+{overflow:hidden;margin:8px 0;padding-left:14px;background:url(../../common/img/icon/m_poker.gif) left 30% no-repeat;
+font:bold 12px '돋움','Dotum';color:#2854bf;}
+#shopmain .pass_avatar .info i
+{display:block;overflow:hidden;margin-top:4px;font:11px '돋움','Dotum';color:#898989;letter-spacing:-1px}
+
+#shopmain .pass_avatar .btn
+{display:none;}
+
+.section_avatarmain
+{position:relative;display:block;overflow:hidden;margin-top:20px;}
+.section_avatarmain .wrap
+{overflow:hidden;width:99.6%;border:1px solid #ddd}
+.section_avatarmain .tip,
+.section_passmain .tip,
+.section_itemmain .tip,
+.section_chargemain .tip
+{position:absolute;top:9px;left:80px;font:11px '돋움','Dotum';color:#909090;letter-spacing:-1px}
+
+.section_avatarmain .list_avatar
+{overflow:hidden;width:96%;margin:2% auto}
+.section_avatarmain .head
+{overflow:hidden;height:36px;
+background:url(../img/avatar_head.gif) left bottom repeat-x}
+.section_avatarmain h4
+{*display:inline;float:left;overflow:hidden;width:112px;height:36px;background:url(../img/avatar_head.gif) left top no-repeat;
+border:1px solid #cdcdcd;border-bottom-width:0px;font:normal 1.2em '나눔바른고딕','NanumBarunGothic';line-height:35px;text-align:center}
+
+.section_avatarmain .head p
+{*display:inline;float:left;overflow:hidden;margin:9px 120px 0 9px;color:#666}
+
+.section_avatarmain .head dl
+{*display:inline;float:left;overflow:hidden;margin-top:8px;color:#666;line-height:23px}
+.section_avatarmain .head dl dt,
+.section_itemmain .head dl dt
+{*display:inline;float:left;overflow:hidden;padding-left:10px;background:url(../../common/img/icon/bullet.gif) left -34px no-repeat}
+.section_avatarmain .head dl dd,
+.section_itemmain .head dl dd
+{*display:inline;float:left;overflow:hidden;margin:0 6px}
+.section_avatarmain .head dl dd:last-child
+{padding-left:10px;background:url(../../common/img/icon/divide.gif) left 6px no-repeat}
+.section_avatarmain .head .fr dd
+{margin-left:6px}
+.section_avatarmain .head .fr dd:last-child
+{margin-right:6px;padding:0px;background:none}
+.section_avatarmain .head dl dd .cash,
+.section_itemmain .head dl dd .cash
+{color:#ff6400;font-size:12px;font-weight:bold}
+.section_avatarmain .head dl dd .poker
+{margin-left:6px}
+.section_avatarmain .head dl dd .point
+{letter-spacing:-1px}
+.section_avatarmain .head .btn,
+.section_itemmain .head .btn
+{display:block;overflow:hidden;width:52px;height:23px;line-height:23px !important;background:url(../img/btn.gif) left top no-repeat;
+font:bold 11px '돋움','Dotum';color:#fff}
+.section_avatarmain .head .btn:hover,
+.section_itemmain .head .btn:hover
+{color:#ffff00 !important}
+
+.section_avatarmain ul
+{overflow:hidden;width:98%;margin:20px 0 10px;}
+.section_avatarmain li
+{*display:inline;float:left;overflow:hidden;width:16%;margin:0 0.3%;text-align:center}
+.section_avatarmain li .avatar
+{width:70%;margin:0 auto;padding:4px;border:1px solid #ccc}
+.section_avatarmain li .info
+{width:70%;margin:6px auto}
+.section_avatarmain li .info strong
+{display:block;}
+.section_avatarmain li input
+{}
+.section_avatarmain li .btn
+{display:inline-block;font:11px '돋움','dotum';line-height:19px;}
+
+.section_passmain
+{position:relative;display:block;overflow:hidden;margin-top:20px;padding-top:10px}
+.section_passmain .tip
+{left:166px;top:19px}
+.section_passmain .tab
+{position:absolute;top:1px;right:6px}
+.section_passmain .passreview
+{overflow:hidden;margin-top:9px}
+.section_passmain .passinfo
+{overflow:hidden;width:99.2%;margin-top:-4px;padding:20px 0;border:1px solid #ddd;border-top:0px;
+text-align:center}
+
+.section_itemmain
+{position:relative;display:block;overflow:hidden;margin-top:20px}
+.section_itemmain .tip
+{left:116px}
+
+.section_itemmain .head
+{overflow:hidden;padding:8px 0;background:#f9f9f9}
+.section_itemmain .head p
+{*display:inline;float:left;overflow:hidden;margin:2px 0 0 4px;color:#666}
+.section_itemmain .head dl
+{*display:inline;float:left;overflow:hidden;color:#666;line-height:23px}
+
+.section_itemmain .wrap
+{width:99.2%;border:1px solid #ccc}
+
+.section_itemmain ul
+{overflow:hidden;width:96%;margin:20px auto}
+.section_itemmain li
+{*display:inline;float:left;position:relative;overflow:hidden;width:50%;margin:10px 0}
+.section_itemmain ul .btn
+{position:absolute;top:0px;right:24px;}
+.section_itemmain .item
+{*display:inline;float:left;overflow:hidden;width:87px;}
+.section_itemmain .info
+{*display:inline;float:left;overflow:hidden;width:300px;margin-left:10px;
+background:url(../../common/img/icon/dot3.gif) left 22px repeat-x}
+
+.section_itemmain .info strong
+{margin-left:2px;font-weight:bold}
+.section_itemmain .info .cash
+{float:right;margin:4px 40px 0 0;}
+
+.section_itemmain ul ul
+{overflow:hidden;width:97%;margin:10px auto;}
+.section_itemmain ul ul li
+{display:block;width:100%;margin:2px auto;padding-left:6px;background:url(../../common/img/icon/bullet.gif) left -114px no-repeat;
+font:11px '돋움','Dotum';color:#aaa;letter-spacing:-1px}
+
+.section_freemain
+{position:relative;display:block;overflow:hidden;margin-top:20px;}
+.section_freemain .wrap
+{overflow:hidden;width:99.6%;border:1px solid #ddd;border-bottom-width:3px}
+.section_freemain ul
+{overflow:hidden;width:96%;margin:0 auto;}
+.section_freemain ul li
+{*display:inline;float:left;position:relative;overflow:hidden;width:23%;margin:3% 1%;}
+.section_freemain .event
+{margin-bottom:4px}
+.section_freemain ul ul
+{overflow:hidden;width:100%;margin:10px auto;}
+.section_freemain li strong
+{margin:6px 0;font-weight:bold}
+.section_freemain li li
+{display:block;width:100%;margin:2px 0;padding-left:6px;background:url(../../common/img/icon/bullet.gif) left -114px no-repeat;
+font:11px '돋움','Dutum';color:#aaa;letter-spacing:-1px}
+.section_freemain .poker,.section_freemain .gostop,.section_freemain .cash
+{background-color:#ffffff}
+
+.section_freemain .btn
+{position:absolute;top:77px;right:10px}
+
+/* 팝업 - 구매 */
+#pop_wrap
+{position:relative;height:714px}
+#pop_wrap .border
+{position:absolute;left:24px;bottom:10px;}
+
+
+#pop_wrap .section_goods
+{display:block;overflow:hidden;width:92%;margin:20px auto 0px;padding-bottom:10px;border-bottom:3px solid #ededed}
+#pop_wrap .section_goods .avatar
+{*display:inline;overflow:hidden;float:left;width:112px;height:130px;border:1px solid #d7d8d9;text-align:center}
+#pop_wrap .section_goods .avatar img
+{margin-top:6px}
+#pop_wrap .section_goods .item
+{*display:inline;overflow:hidden;float:left;width:112px;height:130px;text-align:center}
+
+#pop_wrap .section_goods ul
+{*display:inline;overflow:hidden;float:right;width:70%;}
+#pop_wrap .section_goods li
+{overflow:hidden;margin-bottom:6px}
+
+#pop_wrap .btn2
+{display:inline-block;overflow:hidden;width:95px;height:19px;background:url(../../common/img/btn/normal.gif) left -57px no-repeat;
+font:11px '돋움','Dutum';color:#777;text-align:center;letter-spacing:-1px;line-height:19px}
+.btn3 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+	background-color:#f9f9f9;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:돋움,'Dutum';
+	font-size:11px;
+	padding:2px 4px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.btn3:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+	background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+	background-color:#e9e9e9;
+}
+.btn3:active {
+	position:relative;
+	top:1px;
+}
+
+.section_goods .money,
+.mygoods .money
+{overflow:hidden;padding-left:15px;background:url(../../common/img/icon/money.gif) left 1px no-repeat;font:bold 12px '굴림','Gulim';color:#ff6500}
+.section_goods .cash,
+.mygoods .cash
+{overflow:hidden;padding-left:15px;background:url(../../common/img/icon/m_cash.gif) left top no-repeat;font:bold 12px '굴림','Gulim';color:#666}
+.section_goods .point
+{overflow:hidden;padding-left:15px;background:url(../../common/img/icon/point.gif) left 1px no-repeat;font:bold 12px '굴림','Gulim'}
+
+#pop_wrap .section_goods dl
+{color:#878787}
+#pop_wrap .section_goods dt
+{*display:inline;overflow:hidden;float:left;width:24%;height:20px;margin-bottom:6px;padding-left:4px;
+background:url(../../common/img/icon/bullet.gif) left -110px no-repeat;line-height:20px;}
+#pop_wrap .section_goods dd
+{*display:inline;overflow:hidden;float:left;width:70%;margin-bottom:6px;line-height:20px}
+
+#pop_wrap .section_goods strong
+{font:bold 15px '돋움','Dotum';letter-spacing:-1px}
+#pop_wrap .section_goods dd b
+{display:block;font-weight:bold;letter-spacing:-1px;color:#ff6500}
+#pop_wrap .section_goods dd .info
+{display:block;width:100%;font:11px '돋움','Dutum';line-height:20px;letter-spacing:-1px}
+#pop_wrap .section_goods dd .info li
+{width:100%;margin:0px;padding:0px;line-height:14px}
+
+#pop_wrap .section_goods .price
+{padding-bottom:10px;margin:10px 0 20px;background:url(../../common/img/icon/dot2.gif) left bottom repeat-x}
+#pop_wrap .section_goods .price dt
+{background:url(../../common/img/icon/bullet.gif) left -160px no-repeat}
+
+#pop_wrap h3{
+	display:block;
+	overflow:hidden;
+	width:92%;
+	margin:14px auto 8px;
+	font:bold 15px '돋움','Dutum';
+	letter-spacing:-1px}
+#pop_wrap .section_payment
+{display:block;overflow:hidden;position:relative;width:92%;margin:0 auto;
+background:#f9f9f9;border:1px solid #cfcfcf;border-top-width:0px;}
+#pop_wrap .section_payment .etabs
+{height:36px;background:#f9f9f9 url(../../pop/img/bg.gif) left -151px repeat-x;}
+#pop_wrap .section_payment .tab
+{display:inline-block;zoom:1;*display:inline;float:left;margin:0 4px;font-size:13px;text-align:center}
+#pop_wrap .section_payment .tab a
+{display:block;width:114px;height:36px;
+font:normal 12px '굴림','Dutum';color:#777;line-height:36px;outline:none}
+#pop_wrap .section_payment .tab a:hover
+{color:#333}
+#pop_wrap .section_payment .tab.active
+{position:relative;top:0px;background:url(../../pop/img/bg.gif) left -186px no-repeat}
+
+#pop_wrap .section_payment .tab_payment
+{height:170px;padding:20px 0 30px}
+#pop_wrap .section_payment .tab_payment dl
+{overflow:hidden;width:40%;margin:0px auto}
+#pop_wrap .section_payment .tab_payment dt
+{display:inline-block;overflow:hidden;float:left;width:30%;padding:4px 0 4px 14px;
+background:url(../../common/img/icon/bullet.gif) left 8px no-repeat;color:#888}
+#pop_wrap .section_payment .tab_payment dd
+{display:inline-block;overflow:hidden;float:left;width:60%;padding:4px 0;font-weight:bold;text-align:right}
+#pop_wrap .section_payment .tab_payment .cash
+{background:url(../../common/img/icon/m_cash.gif) left 4px no-repeat;}
+#pop_wrap .section_payment .tab_payment p
+{overflow:hidden;width:96%;margin:20px auto 10px;padding:10px 0;border-top:1px solid #ddd;
+font:bold 15px '돋움','Dutum';color:#ff6600;letter-spacing:-1px;text-align:center}
+#pop_wrap .section_payment #tab_pay p
+{margin:20px auto 10px;border:none}
+
+#pop_wrap .section_payment .tab_payment .wrap_btn
+{margin:0 auto;padding:0px !important}
+#pop_wrap .section_payment .tab_payment .wrap_btn a
+{display:block;width:258px;height:54px;margin:0 auto;background:url(../../pop/img/btn.gif) left bottom no-repeat;
+font:bold 18px '나눔바른고딕','NanumBarunGothic';color:#fff;line-height:54px;}
+#pop_wrap .section_payment .tab_payment .wrap_btn a:hover
+{color:#ffff00 !importan}
+#pop_wrap .section_payment .section_goods_price
+{color:#ff6600;font-weight:bold}
+#pop_wrap .section_payment .btn3
+{position:absolute;top:8px;right:4px;}
+
+#pop_wrap .mygoods
+{width:50%;margin:100px auto 0;}
+#pop_wrap .mygoods li
+{padding:2px 0;text-align:center}
+#pop_wrap .mygoods strong
+{padding:4px 0;font-weight:bold}
+
+#pop_wrap .section_result
+{margin:20px auto 100px}
+
+/* 팝업-캐쉬구매 */
+.payment_select
+{width:92%;margin:20px auto;}
+.payment_select table
+{width:99.6%;margin:1px;border:1px solid #ccc}
+.payment_select th
+{width:24%;padding:8px 0;background:#f6f6f6 url(../../common/img/th_bg1.gif) left top repeat-x;border-bottom:1px solid #cdcdcd;border-right:1px solid #cdcdcd;
+color:#676767;font-weight:bold;vertical-align:middle}
+.payment_select td
+{padding:8px 0;border-bottom:1px solid #cdcdcd;font:normal 12px '굴림','Dutum';color:#666;vertical-align:middle}
+.payment_select ul
+{overflow:hidden;width:96%;margin:0 auto}
+.payment_select li
+{*display:inline;overflow:hidden;float:left;margin:0 20px 4px 0;font-size:11px;letter-spacing:-1px}
+.payment_select .f12 li
+{font-size:12px}
+.payment_select select
+{margin-right:4px;padding:2px 0;border:1px solid #ddd;font:normal 12px '굴림','Dutum';color:#666}
+.payment_select .input
+{width:100px;margin-right:4px;padding:2px 0;border:1px solid #ddd;font:normal 12px '굴림','Dutum';color:#666}
+.payment_select li span
+{display:inline-block;margin-left:6px;padding:1px 2px;background:#f3a364;border:1px solid #ed8933;color:#fff;letter-spacing:0px}
+
+.payment_input
+{width:91%;margin:12px auto;border:2px solid #ccc;border-radius:3px;letter-spacing:-1px}
+.payment_input strong
+{display:block;width:98%;padding:24px 0 20px;border-bottom:1px dotted #bbb;text-align:center;font:bold 14px '돋움','Dutum';color:#ff6600}
+.payment_input > div
+{width:98%;margin:20px 0 30px;text-align:center}
+.payment_input .info
+{font:11px '돋움','Dutum';color:#999}
+.payment_input dl
+{overflow:hidden;width:64%;margin:10px auto;line-height:24px;}
+.payment_input dt
+{*display:inline;overflow:hidden;float:left;width:22%;margin-right:10px;padding-left:10px;
+background:url(../../common/img/icon/bullet.gif) left -33px no-repeat;text-align:left}
+.payment_input dd
+{*display:inline;overflow:hidden;position:relative;float:left;width:70%;text-align:left;color:#b2b2b2}
+.payment_input select
+{padding:2px 0;border:1px solid #ddd;font:normal 12px '굴림','Gulim';color:#666}
+.payment_input input
+{width:40px;margin:0 2px;padding:2px 0;border:1px solid #ddd;font:normal 12px '굴림','Dutum';color:#666}
+.payment_input .input
+{width:100px;margin:0px;}
+
+.payment_input b
+{font-weight:bold}
+
+.payment_input .btn
+{display:inline-block;overflow:hidden;width:38px;height:19px;padding: 0px;
+background:url(../../common/img/btn/normal.gif) 2px top no-repeat;font:normal 11px '돋움','Dotum';color:#555;line-height:19px;text-align:center;letter-spacing:-1px}
+#pop_wrap .payment_input .btn:hover
+{color:#333 !important}
+
+.payment_term
+{width:92%;margin:20px auto;} 
+.payment_term h3
+{width:100% !important;font-size:12px !important;color:#666}
+.payment_term .term
+{margin-bottom:10px}
+.payment_term .info
+{overflow:hidden;margin:10px 0 6px 0;font:normal 11px '돋움','Dotum' !important;color:#999}
+.payment_term .info li
+{padding-left:6px;background:url(../../common/img/icon/bullet.gif) left -114px no-repeat;}
+.payment_term .agree
+{overflow:hidden;font:normal 11px '돋움','Dotum';letter-spacing:-1px}
+.payment_term .agree b
+{font-weight:bold}
+.payment_term .agree span
+{margin-left:4px}
+.payment_term .agree span a
+{color:#999}

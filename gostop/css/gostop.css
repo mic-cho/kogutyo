@@ -1,0 +1,367 @@
+@charset "utf-8";
+@import url(../../common/css/reset.css);
+@import url(../../common/css/layout.css);
+@import url(../../common/css/fonts.css);
+@import url(../../common/css/other.css);
+
+/* common */
+
+/* layout */
+body
+{font:12px '굴림','Gulim';color:#444}
+
+/* body_info */
+.info_money
+{background:url(../../common/img/layout_info.gif) left top no-repeat}
+.info_money li
+{background:url(../../common/img/icon/m_gostop.gif) 58px 10px no-repeat;border-bottom:1px solid #f0d7d7}
+.info_money li strong
+{color:#b52d2d;}
+.info_money li strong span
+{font-size:11px;font:normal 11px '돋움','Dotum';color:#333;letter-spacing:0px;}
+
+.info_money .btn
+{background:url(../../common/img/layout_info.gif) -480px top no-repeat;}
+
+.section_info .freecharge
+{overflow:hidden;width:99.4%;margin-left:1px;padding:14px 0;
+background:#fde8e8 url(../../common/img/layout_info.gif) 10px -165px no-repeat;border-bottom:1px solid #ddd;
+text-align:center;font:11px '돋움','Dotum';}
+
+/* body_shop */
+.section_best
+{overflow:hidden;height:330px;}
+.section_best .etabs
+{overflow:hidden;margin:0;padding:0;border-bottom:2px solid #3f4249;}
+.section_best .tab
+{display:inline-block;zoom:1;*display:inline;float:left;margin-right:1px;
+font-weight:600;text-align:center;}
+.section_best .tab a
+{display:block;width:132px;height:43px;background:url(../../shop/img/tab.gif) left top no-repeat;
+font:normal 1.2em '나눔바른고딕','NanumBarunGothic';line-height:43px;color:#777;outline:none;}
+.section_best .tab a:hover
+{color:#444}
+.section_best .tab.active
+{position:relative;top:1px;background:#fff}
+.section_best .tab a.active
+{background-position:0px -43px;color:#fff}
+
+.tab_avatar ul
+{overflow:hidden;
+display: flex; justify-content: space-between}
+.tab_avatar li
+{*display:inline;float:left;overflow:hidden;margin:10px n0}
+.tab_avatar .avatar
+{overflow:hidden;width:120px;height:160px;margin:10px auto 0;background:#ffffff;border:1px solid #dadada;text-align:center}
+.tab_avatar .avatar img
+{margin-left: -30px;margin-top: -10px}
+.tab_avatar .info
+{overflow:hidden;width:102px;margin:6px auto 4px;padding:8px 0;
+background:#fbfbfb;text-align:center}
+.tab_avatar .info strong
+{display:block;overflow:hidden;color:#000;text-align:center}
+.tab_avatar .info span
+{overflow:hidden;margin:8px 0;padding-left:14px;background:url(../../common/img/icon/money.gif) left 30% no-repeat;
+font:11px '돋움','Dotum';color:#898989;}
+.tab_avatar .info i
+{display:block;overflow:hidden;margin-top:4px;font:11px '돋움','Dotum';color:#898989;letter-spacing:-1px}
+
+.tab_item ul
+{overflow:hidden;}
+.tab_item li
+{*display:inline;float:left;overflow:hidden;width:12.5%;margin:10px 18px 0 18px}
+.tab_item .item
+{margin:10px auto 0;text-align:center}
+.tab_item .item img
+{margin:0 auto;}
+.tab_item .info
+{overflow:hidden;margin:6px auto 4px;padding:8px 0;
+background:#fbfbfb;text-align:center}
+.tab_item .info strong
+{display:block;overflow:hidden;color:#000;text-align:center}
+.tab_item .info span
+{overflow:hidden;margin:8px 0;padding-left:14px;background:url(../../common/img/icon/money.gif) left 30% no-repeat;
+font:11px '돋움','Dotum';color:#898989;}
+.tab_item .info i
+{display:block;overflow:hidden;width:90%;margin:4px auto 0;padding-top:6px;background:url(../../common/img/icon/dot1.gif) left top repeat-x;
+font:11px '돋움','Dotum';color:#898989;letter-spacing:-1px;text-align:left}
+
+.tab_item {
+	border: 1px solid #eee;
+}
+.tab_item p {
+	height: 270px;
+	line-height: 270px;
+	text-align: center;
+	vertical-align: middle;
+	font-size:1.4em;
+	font-family: '나눔바른고딕','NanumBarunGothic';
+}
+
+.tab_avatar .btn,.tab_item .btn
+{display:block;overflow:hidden;width:37px;height:19px;margin:0 auto;
+background:url(../../common/img/btn/normal.gif) 1px top no-repeat;font:11px '돋움','Dotum';line-height:19px;text-align:center;font-weight:normal;color:#555;letter-spacing:-1px}
+.tab_avatar .btn:hover,.tab_item .btn:hover
+{color:#333 !important}
+
+.section_pass
+{*display:inline;float:left;width:378px;margin-bottom:30px;}
+.section_pass img
+{border:1px solid #ddd}
+.section_point
+{*display:inline;float:right;width:481px}
+
+.section_pass h3, .section_point h3
+{padding:0.4em 0;font:15px '나눔바른고딕','NanumBarunGothic';}
+
+.section_banner
+{display:block;clear:both;margin-top:10px}
+.section_banner h3
+{display:none}
+
+.section_event
+{display:block;overflow:hidden;width:99.6%;margin:10px auto 0;
+border:1px solid #ddd;font:15px '나눔바른고딕','NanumBarunGothic';}
+.section_event h3
+{padding:0.8em 0 0.8em 0.8em;
+border-bottom:1px solid #ddd}
+.section_event ul
+{overflow:hidden;}
+.section_event li
+{*display:inline;float:left;overflow:hidden;margin:13px 0 20px 13px;font-size:0.8em;color:#666}
+.section_event a
+{color:#333}
+.section_event p
+{overflow:hidden;height:127px;border:1px solid #ccc}
+.section_event span
+{display:block;margin:8px 0 4px 0;font-size:1.1em}
+
+.license
+{position:relative;overflow:visible;height:1px;display:none}
+.license p
+{position:absolute;right:0;width:356px;height:60px;margin-top:16px;
+background:url(../../common/img/icon/gamegrade.gif) left bottom no-repeat;text-align:right}
+.license p img
+{}
+
+/* gamemain */
+.gamemain
+{position:relative;overflow:hidden;width:100%;margin:0 auto 20px}
+
+.gamemain .menu
+{*display:inline;float:right;overflow:hidden;margin-bottom:60px}
+.gamemain .menu li
+{*display:inline;float:left;overflow:hidden;margin-top:40px;padding:0 10px 0 11px;background:url(../img/menu.png) left -5px no-repeat;}
+.gamemain .menu li a
+{display:block;overflow:hidden;height:21px;
+color: #262024;font:bold 15px '나눔바른고딕','NanumBarunGothic';
+text-shadow: 2px 2px #faf5e6;}
+
+.submenu
+{overflow:hidden;position:absolute;right:0px;top:74px;padding:6px;}
+.submenu li
+{*display:inline;float:left;overflow:hidden;padding:0 6px;}
+
+.select_game
+{overflow:hidden;clear:both;width:99%;}
+.select_game li
+{*display:inline;overflow:hidden;float:right;width:170px;height:54px;margin:0 0px;}
+
+.select_game a
+{display:none;width:100%;height:54px;
+line-height:0;text-indent:-9999px}
+.select_game .sutda a
+{background:url(../img/gametab.png) -200px top no-repeat;}
+.select_game .sutda a:hover
+{background-position:-200px -55px}
+.select_game .matgo a
+{background:url(../img/gametab.png) -400px top no-repeat;}
+.select_game .matgo a:hover
+{background-position:-400px -55px}
+.select_game .dori a
+{background:url(../img/gametab.png) 0px top no-repeat;}
+.select_game .dori a:hover
+{background-position:0px -55px}
+
+.channel
+{overflow:hidden;clear:both;width:100%;height:134px;
+background:url(../img/channel_bg.png) center top no-repeat;}
+.channel li
+{*display:inline;overflow:hidden;float:left;width:161px;height:108px;margin:14px 3px 0 3px}
+.channel li a
+{display:block;width:100%;height:108px;line-height:0;text-indent:-9999px;}
+.channel li a:hover
+{background-position:0px -108px !important}
+.channel .off, .channel .off:hover
+{background-position:0px -216px !important;cursor:default}
+.channel li:first-child
+{margin:14px 3px 0 8px}
+
+.gamemain .banner
+{overflow:hidden;position:absolute;top:55px;left:260px}
+
+#viewchannel{
+	position:absolute;
+	top:98px;
+	right:10px;
+	width:300px;
+	background:#ffffff;
+	border:3px solid #333
+}
+#viewchannel caption{
+	display:none
+}
+#viewchannel h3{
+	overflow:hidden;
+	width:98%;
+	padding:1%;
+	background:#333333;
+	font:11px '돋움','Dutum';
+	color:#fff;
+	letter-spacing:-1px
+}
+#viewchannel h3 a{
+	overflow:hidden;
+	float:right;
+	width:11px;
+	height:11px;
+	margin:0px 0px 0 0;
+	background:url(../../pop/img/bg.gif) left -101px no-repeat;
+	font-size:0px
+}
+#viewchannel h3 a:hover {
+	background-position:0px -112px
+}
+#viewchannel table{
+	width:96%;
+	margin:2% auto;
+	border:1px solid #ccc;
+	font:11px '돋움','Dutum';
+}
+#viewchannel table th{
+	padding:2px;
+	background:#f9f9f9;
+	color:#777
+}
+#viewchannel table td{
+	padding:4px;
+	border:1px solid #ccc;
+	color:#ff0000
+}
+#viewchannel table .cn{
+	color:#000;
+	text-align:center
+}
+
+
+/* matgo */
+.container_matgo
+{background:url(../img/visual_matgo.jpg) center top no-repeat}
+
+.container_matgo h2
+{*display:inline;float:left;overflow:hidden;width:199px;height:75px;margin:32px 0 0 0px;}
+.container_matgo h2 a
+{display:block;width:100%;height:100%;background:url(../img/logo_matgo.png) center top no-repeat;
+line-height:0;text-indent:-9999px;}
+
+.container_matgo .submenu
+{background:url(../../common/img/icon/trans_br_20.png) left top repeat-x}
+.container_matgo .submenu li a
+{color:#58450c;letter-spacing:-1px}
+.container_matgo .submenu li a:hover
+{color:#000}
+
+.container_matgo .select_game .matgo
+{display:none}
+
+.container_matgo .channel .c1_1 a
+{background:url(../img/channel_room_lv1.gif) left top no-repeat}
+.container_matgo .channel .c1_2 a
+{background:url(../img/channel_room_lv2.gif) left top no-repeat}
+.container_matgo .channel .c2_1 a
+{background:url(../img/channel_room_lv3.gif) left top no-repeat}
+.container_matgo .channel .c2_2 a
+{background:url(../img/channel_room_lv4.gif) left top no-repeat}
+.container_matgo .channel .c4 a
+{background:url(../img/channel_room_lv5.gif) left top no-repeat}
+.container_matgo .channel .c5 a
+{background:url(../img/channel_room_lv6.gif) left top no-repeat}
+.container_matgo .channel .free a
+{background:url(../img/channel_room_free.gif) left top no-repeat}
+.container_matgo .channel .robot a
+{background:url(../img/channel_room_robot.gif) left top no-repeat}
+
+/* sutda */
+.container_sutda
+{background:url(../img/visual_sutda.jpg) center top no-repeat}
+
+.container_sutda h2
+{*display:inline;float:left;overflow:hidden;width:132px;height:60px;margin:62px 0 0 50px;}
+.container_sutda h2 a
+{display:block;width:100%;height:100%;background:url(../img/logo_sutda.png) center top no-repeat;
+line-height:0;text-indent:-9999px;}
+
+.container_sutda .submenu
+{background:url(../../common/img/icon/trans_r_20.png) left top repeat-x}
+.container_sutda .submenu li a
+{color:#520202;letter-spacing:-1px}
+.container_sutda .submenu li a:hover
+{color:#8a1414}
+
+.container_sutda .select_game .sutda
+{display:none}
+
+.container_sutda .channel .c1_1 a
+{background:url(../img/channel_room_lv1.gif) left top no-repeat}
+.container_sutda .channel .c1_2 a
+{background:url(../img/channel_room_lv2.gif) left top no-repeat}
+.container_sutda .channel .c2_1 a
+{background:url(../img/channel_room_lv3.gif) left top no-repeat}
+.container_sutda .channel .c2_2 a
+{background:url(../img/channel_room_lv4.gif) left top no-repeat}
+.container_sutda .channel .c4 a
+{background:url(../img/channel_room_lv5.gif) left top no-repeat}
+.container_sutda .channel .c5 a
+{background:url(../img/channel_room_lv6.gif) left top no-repeat}
+.container_sutda .channel .free a
+{background:url(../img/channel_room_free.gif) left top no-repeat}
+.container_sutda .channel .robot a
+{background:url(../img/channel_room_robot.gif) left top no-repeat}
+
+/* dori */
+.container_dori
+{background:url(../img/visual_dori.jpg) center top no-repeat}
+
+.container_dori h2
+{*display:inline;float:left;overflow:hidden;width:171px;height:60px;margin:62px 0 0 54px;}
+.container_dori h2 a
+{display:block;width:100%;height:100%;background:url(../img/logo_dori.png) center top no-repeat;
+line-height:0;text-indent:-9999px;}
+
+.container_dori .submenu
+{background:url(../../common/img/icon/trans_gr_20.png) left top repeat-x}
+.container_dori .submenu li a
+{color:#01410b;letter-spacing:-1px}
+.container_dori .submenu li a:hover
+{color:#981212}
+
+.container_dori .select_game .dori
+{display:none}
+
+.container_dori .channel .c1_1 a
+{background:url(../img/channel_room_lv1.gif) left top no-repeat}
+.container_dori .channel .c1_2 a
+{background:url(../img/channel_room_lv2.gif) left top no-repeat}
+.container_dori .channel .c2_1 a
+{background:url(../img/channel_room_lv3.gif) left top no-repeat}
+.container_dori .channel .c2_2 a
+{background:url(../img/channel_room_lv4.gif) left top no-repeat}
+.container_dori .channel .c4 a
+{background:url(../img/channel_room_lv5.gif) left top no-repeat}
+.container_dori .channel .c5 a
+{background:url(../img/channel_room_lv6.gif) left top no-repeat}
+.container_dori .channel .free a
+{background:url(../img/channel_room_free.gif) left top no-repeat}
+.container_dori .channel .robot a
+{background:url(../img/channel_room_robot.gif) left top no-repeat}
+

@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* 
+NHN Web Standardization Team (http://html.nhndesign.com/)
+Author : JCM 080122
+*/ 
+
+/* Type Selector */
+*{margin:0; padding:0; font-style:normal; font-family:����, Gulim, ����, Dotum, AppleGothic, Sans-serif;}
+img, fieldset{border:none;}
+hr, legend{display:none;}
+li{list-style:none;}
+a{}
+a:visited{}
+a:hover, a:active, a:focus{}
+html:first-child select{padding-right:6px; height:20px;} /* Opera Fix */ 
+option, x:-moz-any-link {padding-right:4px;} /* Firefox Fix */ 
+option, x:-moz-any-link, x:default {padding-right:0;} /* Firefox Fix */
+
+/* Layout Selector */
+#wrap{}
+#header{}
+#container{}
+#content{}
+#footer{} 
+.spot{}
+.colgroup{}
+.snb{}
+.aside{}
+
+/* Class Selector */
+.input_text{}
+.input_textarea{}
+.input_check{}
+.input_radio{} 
+
+/* Header */
+.gnb{}
+.lnb{}
+.search{} 
+
+/* Footer */
+#footer{} 
+
+/* Navigation */
+.snb{}
+.account{} 
+
+/* Aside */
+.aside{} 
+
+/* Content */
+#content{}
+.path{}
+.article{}
+.section{} 
+/*.test {#C00 background:url(/bo_img/di_01.gif) no-repeat 0 0 fixed}
+.dl_font {
+	font : 600 12px 'Namungothic', 나눔고딕 ;
+	color:#0F3;
+	line-height:1.5em;
+	list-style:inside circle;
+}*/

@@ -1,0 +1,127 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(fonts.css);
+@import url(global.css);
+@import url(other.css);
+@import url(button.css);
+@import url(table.css);
+@import url(index.css);
+
+/* 기본 */
+a {
+	text-decoration: none;
+
+}
+body {
+	background: #ffffff;
+	font: 16px '나눔바른고딕','NanumBarunGothic';
+	color: #444; 
+}
+
+/* header */
+#container {
+	width: 100%;
+}
+
+#header {
+	overflow:hidden;height:88px;
+	display: flex;
+	align-items: center;
+	background: url(../img/header-bg-pattern.png) left top repeat-x;
+}
+#header h1 {
+	overflow:hidden;
+	width: 40%;
+	margin: 0 0.5em;
+}
+#header img {
+	width: 100%;
+	height: auto;
+}
+
+.gnb {
+	overflow:hidden;
+}
+.gnb li {
+	overflow:hidden;
+	padding:0.3em 0.6em;
+}
+.gnb li a {
+	font:11px '돋움','Dutum'; color:#777; letter-spacing:-1px
+}
+
+#content {
+	overflow: hidden;
+	padding: 1% 5%;	
+}
+
+h2 {
+	padding: 0.5em 0 0.25em 0;
+	font:bold 1.3em '나눔바른고딕','NanumBarunGothic';
+}
+
+#footer {
+	position: relative;
+	overflow: hidden;
+	padding: 1% 5%;
+	border-top: 20px solid #f0f0f0;
+}
+#footer .quick {
+	overflow: hidden;
+	margin: 1em 0;
+	border: 1px solid #d7d7d7;
+}
+#footer .quick li {
+	display: inline-block;
+	width: 32.2%;
+	border-right: 1px solid #d7d7d7;
+	padding: 0.5em 0;
+	line-height: 1.5em;
+	text-align: center;
+	color: #828482;
+	font-size: 1em;
+}
+#footer .quick li a {
+	color: #828482;
+}
+#footer .quick li:last-child {
+	border-right: 0px;
+}
+#footer h4 {
+	padding: 0.25em 0;
+}
+#footer h4 img {
+	width: 100px;
+	height: auto;
+}
+#footer .menu {
+	overflow: hidden;
+	padding: 0.75rem 0;
+	border-top: 1px solid #f0f0f0;
+	font-size: 0.875em;
+}
+#footer .menu li {
+	display: inline-block;
+	padding: 0.25em 0.25em;
+}
+#footer .menu li a {
+	color: #a1a1a1
+}
+
+button.go-top {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid #e9e9e9;
+	background: #ffffff;
+	box-shadow: 0 0 3px #ccc
+}
+
+#footer button.go-top {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}

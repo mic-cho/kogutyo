@@ -1,0 +1,16 @@
+@import "/css/common.css";
+/*construction*/
+html, body{
+	height:100%
+}
+body{
+	position:relative
+}
+.constrct_div{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-184px 0 0 -321px;
+}
+	
+

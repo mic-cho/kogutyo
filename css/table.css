@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tbl_style1 {
+	display:inline-table;	
+	margin:10px 0 10px 0;
+	border-collapse:collapse;
+	border-bottom:1px solid #535353;
+	font-size: 12px;
+	line-height: 22px;
+}
+.tbl_style1 th {
+	padding: 6px 4px;
+}
+.tbl_style1 td {
+	padding: 6px 10px;
+}
+.tbl_style1 thead tr th {
+	color: rgb(147, 147, 147);
+	font-weight: bold;
+	background:rgb(239, 241, 242);
+}
+.tbl_style1 thead tr th.fst_th {
+	color: rgb(147, 147, 147);
+	font-weight: bold;
+	background-color: rgb(47, 47, 47);
+}
+.tbl_style1 tbody tr th {
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	border-right:1px solid #535353;
+	background-color: rgb(223, 79, 0);
+}
+.tbl_style1 tbody tr td {
+	text-align:left;
+	border-left:1px solid #535353;
+}
+.tbl_style1 tbody tr td input[type='checkbox'], .tbl_style1 tbody tr td input[type='radio'], .tbl_style1 tbody tr td input[type='image'] {
+	border:0px!important;
+}
+.tbl_style1 tbody tr td input[type='checkbox'], .tbl_style1 tbody tr td input[type='text'], .tbl_style1 tbody tr td input[type='image'], input[type='radio'] {
+	vertical-align:middle
+}
+.tbl_style1 tbody tr td input[type='file'] {
+	padding:1px 3px;
+	vertical-align:middle;
+	border:solid 1px #ccc;
+	background-color:#FFF;
+}
+.tbl_style1 tbody tr td input[type='submit'] {
+	padding:1px 4px;
+	vertical-align:middle;
+}
+.tbl_style1 tbody tr td input[type='checkbox'], .tbl_style1 tbody tr td input[type='radio'] {
+	margin-right:4px;
+	border:none 0!important;
+}
+.tbl_style1 tbody tr td input[type='text'], .tbl_style1 tbody tr td input[type='password'] {
+	height:18px;
+	padding:2px 4px;
+	vertical-align:middle;
+	border: 1px solid #828282;
+	color:#090909!important;
+	background-color:#E1D6C6;
+}
+.tbl_style1 tbody tr td textarea {
+	margin:4px 0;
+	padding: 3px 0px 1px 3px;
+	border: 1px solid #828282;
+	font-family: 돋움, Dotum, Tahoma;
+	color:#090909;
+	background-color:#E1D6C6;
+}
+.tbl_style1 tbody tr td a img {
+	margin:0 0 0 2px;
+	vertical-align:middle;
+	border:0;
+}
+
+
+.tbl_style2 {
+	display:inline-table;	
+	margin:10px 0 10px 0;
+	border-collapse:collapse;
+	border-bottom:1px solid #DDDDDD;
+	font-size: 12px;
+	line-height: 22px;
+}
+.tbl_style2 th {
+	padding: 6px 4px;
+}
+.tbl_style2 td {
+	padding: 6px 10px;
+}
+.tbl_style2 thead tr th {
+	color: rgb(147, 147, 147);
+	font-weight: bold;
+	background:rgb(239, 241, 242);
+}
+.tbl_style2 thead tr th.fst_th {
+	color: rgb(147, 147, 147);
+	font-weight: bold;
+	background-color: rgb(47, 47, 47);
+}
+.tbl_style2 tbody tr th {
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	border-right:1px solid #DDDDDD;
+	background-color: rgb(223, 79, 0);
+}
+.tbl_style2 tbody tr td {
+	text-align:left;
+	border-right:1px solid #DDDDDD;
+}
+.tbl_style2 tbody tr td input[type='checkbox'], .tbl_style2 tbody tr td input[type='radio'], .tbl_style2 tbody tr td input[type='image'] {
+	border:0px!important;
+}
+.tbl_style2 tbody tr td input[type='checkbox'], .tbl_style2 tbody tr td input[type='text'], .tbl_style2 tbody tr td input[type='image'], input[type='radio'] {
+	vertical-align:middle
+}
+.tbl_style2 tbody tr td input[type='file'] {
+	padding:1px 3px;
+	vertical-align:middle;
+	border:solid 1px #ccc;
+	background-color:#FFF;
+}
+.tbl_style2 tbody tr td input[type='submit'] {
+	padding:1px 4px;
+	vertical-align:middle;
+}
+.tbl_style2 tbody tr td input[type='checkbox'], .tbl_style2 tbody tr td input[type='radio'] {
+	margin-right:4px;
+	border:none 0!important;
+}
+.tbl_style2 tbody tr td input[type='text'], .tbl_style2 tbody tr td input[type='password'] {
+	height:18px;
+	padding:2px 4px;
+	vertical-align:middle;
+	border: 1px solid #828282;
+	color:#090909!important;
+	background-color:#E1D6C6;
+}
+.tbl_style2 tbody tr td textarea {
+	margin:4px 0;
+	padding: 3px 0px 1px 3px;
+	border: 1px solid #828282;
+	font-family: 돋움, Dotum, Tahoma;
+	color:#090909;
+	background-color:#E1D6C6;
+}
+.tbl_style2 tbody tr td a img {
+	margin:0 0 0 2px;
+	vertical-align:middle;
+	border:0;
+}

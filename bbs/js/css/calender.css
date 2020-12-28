@@ -1,0 +1,8 @@
+/* 2009년1월6일 강영환 달력스타일 추가작업*/
+.calendar_bx {display:; position:absolute; top:267px; left:843px; z-index:30; padding:6px; border:solid 1px #999999; background-color:#FFFFFF}
+.calendar_bx ul.selct_day {width:170px; height:22px; margin-bottom:5px;}
+.calendar_bx ul.selct_day li {display:inline}
+.calendar_bx table.calendar_tble { width:170px; border-collapse:collapse; padding:0px;}
+.calendar_bx table.calendar_tble thead { line-height:18px; background-color:#b3c8dc; color:#143899;}
+.calendar_bx table.calendar_tble thead td { padding:3px!important; font-size:11px; line-height:14px; }
+.calendar_bx table.calendar_tble tbody td { padding:2px; margin:0px; font-size:12px; line-height:14px;}

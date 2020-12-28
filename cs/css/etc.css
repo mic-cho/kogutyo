@@ -1,0 +1,460 @@
+@charset "utf-8";
+@import url(/common/css/reset.css);
+@import url(/common/css/fonts.css);
+@import url(/common/css/layout.css);
+@import url(/common/css/other.css);
+@import url(/common/css/table.css);
+@import url(/common/css/button.css);
+@import url(/common/css/bullet.css);
+
+/* common */
+
+
+/* layout */
+
+body{
+	font:12px '굴림','Gulim';
+	color:#444
+}
+#content{
+	overflow:hidden;
+	margin-top:30px
+}
+
+.body_cs h2,.body_cs_solo h2{
+	padding:0 0 0.2em;
+	border-bottom:4px solid #5d5d5d;
+	font:300 2.4em '나눔바른고딕','NanumBarunGothic'
+}
+
+.body_cs h3{
+	display:block;
+	overflow:hidden;
+	margin:20px 0 10px 0;
+	padding:0 0 0 14px;
+	background:url(../../common/img/icon/arrow.gif) no-repeat -290px 2px;
+	font:300 14px '나눔바른고딕','NanumBarunGothic'
+}
+
+.body_cs_solo .term{
+	overflow:hidden;
+	width:99.8%;
+	margin:20px 0;
+	border:1px solid #ddd
+}
+.body_cs_solo .term iframe{
+	overflow:hidden;
+	width:98%;
+	height:750px;
+	margin:1% 1%
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+/*내정보메인*/
+#nav {
+}
+#nav dd {
+	position:relative;
+	z-index: 999;
+}
+#nav dd a {
+	display: block;
+	zoom: 1;
+}
+#nav dd a:hover, #nav dd a.hov {
+}
+#nav dd ul {
+	position: absolute;
+	left: -60px;
+	display: none;
+	width:210px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	-o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+#nav dd ul li {
+	width: 100%;
+	float: left;
+	border-top: 1px solid #7D675F;
+	text-align: left;
+}
+#nav dd ul li:hover {
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+}
+#nav dd ul a {
+	display: block;
+	height: 20px;
+	line-height: 20px!important;
+	padding: 8px 5px 8px 15px;
+	font:400 12px '나눔바른고딕', 'NanumBarunGothic';
+	color: #F5F5F5;
+	background:#5C4A43
+}
+#nav dd ul a:hover {
+	text-decoration: none;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	color: #FFFEB8;
+}
+.snb_wrap {
+	display:block;
+	margin:0;
+	padding:0;
+	background:#5C4A43;
+}
+.cs_snb {
+	width:1180px;
+	margin:0 auto
+}
+.cs_snb dt, .cs_snb dd {
+	float:left;
+	list-style:none;
+	line-height:68px!important;
+}
+.cs_snb dt a, .cs_snb dd a {
+	color:#FFF
+}
+.cs_snb dt {
+	padding-right:60px;
+	font:500 28px '나눔바른고딕', 'NanumBarunGothic';
+	color:#FFF;
+	background:url(/member/img/arrows_30.png) no-repeat 80px 50%;
+}
+.cs_snb dd {
+	padding-right:40px;
+	font:500 16px '나눔고딕', 'NanumGothic';
+	color:#FFF
+}
+.cs_div {
+	padding:30px 10px 0 40px;
+}
+.h1_title {
+	margin:30px 0 20px 0;
+	font:500 36px '나눔바른고딕', 'NanumBarunGothic';
+	color:#454951;
+}
+.h1_title .title_coment {
+	margin:0 0 0 20px;
+	font:500 14px '나눔바른고딕', 'NanumBarunGothic';
+	color:#454951;
+}
+.h1_stitle {
+	margin:30px 0 20px 0;
+	font:500 28px '나눔바른고딕', 'NanumBarunGothic';
+	color:#454951;
+}
+.h1_stitle .title_coment {
+	margin:0 0 0 20px;
+	font:500 14px '나눔바른고딕', 'NanumBarunGothic';
+	color:#454951;
+}
+.info_box {
+	overflow:hidden;
+	margin:10px 0 30px;
+	padding:25px;
+	border-top:1px solid #3C54A2;
+	border-bottom:1px solid #3C54A2;
+	background:#F6F6F6
+}
+.info_box h2 {
+	font:500 22px '나눔바른고딕', 'NanumBarunGothic';
+}
+/*내정보스타일 수정*/
+.info_game .game li {
+	margin:4px 0;
+}
+/*내정보우측공통*/
+.mem_notice {
+	display:block;
+	overflow:hidden;
+	margin:14px 12px 0 12px;
+	font:600 15px '나눔고딕', 'NanumGothic';
+	color:#444
+}
+.mem_notice dt {
+	margin: 0 0.4em 0.4em 0.4em;
+	padding:0 0 0.4em 0.4em;
+	border-bottom:1px solid #DDDDDD;
+}
+.mem_notice dd {
+	margin:0 0 0 8px;
+	padding:0.1em 0 0 0.7em;
+	font:normal 12px '돋움', 'Dotum';
+	line-height:1.3em;
+	background:url(/common/img/icon/bullet.gif) left -74px no-repeat
+}
+.mem_notice dd a {
+	color:#353535
+}
+.mem_notice dd a:hover {
+	text-decoration:underline
+}
+.member_cs {
+	display:block;
+	overflow:hidden;
+	margin:14px 12px 0 12px;
+	padding:0 0 20px 0;
+	font:600 15px '나눔고딕', 'NanumGothic';
+	color:#444
+}
+.member_cs dt {
+	margin: 0 0.4em 0.4em 0.4em;
+	padding:0 0 0.4em 0.4em;
+	border-bottom:1px solid #DDDDDD;
+}
+.member_cs dd {
+	margin:0 0 0 8px;
+	padding:0.1em 0 0 0.7em;
+	font:normal 12px '돋움', 'Dotum';
+	line-height:1.3em;
+	background:url(/common/img/icon/bullet.gif) left -74px no-repeat
+}
+.member_cs dd a {
+	color:#353535
+}
+.member_cs a:hover {
+	text-decoration:underline
+}
+
+
+
+/* 사이트맵 */
+.gamemap {
+	display:block;
+	overflow:hidden;
+	width:99.8%;
+	margin-top:20px;
+	background:#ffffff url(../../common/img/viewgame.gif) left top repeat-x;
+	border:1px solid #aeaeae
+}
+.gamemap h3 {
+	padding:10px 0 10px 8px;
+	font:13px '나눔바른고딕', 'NanumBarunGothic';
+	color:#000
+}
+.gamemap ul {
+	overflow:hidden;
+}
+.gamemap ul li {
+*display:inline;
+	overflow:hidden;
+	float:left;
+	width:24.85%;
+	height:188px;
+	border-right:1px solid #e5e5e5
+}
+.gamemap ul li:last-child {
+	border-right:none
+}
+.gamemap dl {
+	overflow:hidden;
+	width:90%;
+	margin:0 auto
+}
+.gamemap dt {
+	overflow:hidden;
+	height:37px;
+	font:11px '돋움', 'Dotum';
+	color:#6f6f6f;
+	line-height:37px
+}
+.gamemap dd {
+	overflow:hidden;
+	margin:14px 0;
+	font:12px '돋움', 'Dotum';
+	line-height:14px
+}
+.gamemap dd a {
+	color:#ff6600;
+	font-weight:bold
+}
+.gamemap .noservice a {
+	color:#6f6f6f;
+	font-weight:normal
+}
+.gamemap .web {
+	background:url(../../common/img/sitemap_blank1_1.jpg) right bottom no-repeat;
+}
+.gamemap p {
+	padding:8px 8px 8px 0;
+	border-top:1px solid #e5e5e5;
+	font:11px '돋움', 'Dotum';
+	color:#999;
+	letter-spacing:-1px;
+	text-align:right
+}
+.gamemap p i {
+	margin:0px 2px -1px 8px;
+}
+.gamemap i {
+	display:inline-block;
+	overflow:hidden;
+	width:11px;
+	height:11px;
+	margin:0px 2px -1px 2px;
+	background:url(../../common/img/icon/gamestat.gif) left top no-repeat;
+	font-size:0px;
+	line-height:14px;
+	text-indent:-9999px
+}
+.gamemap .h {
+	background:url(../../common/img/icon/gamestat.gif) left -39px no-repeat;
+}
+.gamemap .t {
+	background:url(../../common/img/icon/gamestat.gif) left -69px no-repeat;
+}
+.gamemap .r {
+	background:url(../../common/img/icon/gamestat.gif) left -99px no-repeat;
+}
+
+
+.sitemap_title{
+	width:100%;
+	margin:10px auto;
+	padding:10px 0 0px 8px;
+	font:13px '나눔바른고딕', 'NanumBarunGothic';
+	color:#000
+}
+.servicemap {
+	display:block;
+	overflow:hidden;
+	width:99.8%;
+	margin-bottom:20px;
+	border:1px solid #aeaeae
+}
+.servicemap li{
+	display:block;
+	overflow:hidden;
+	width:99%;
+	margin:0.5% auto;
+}
+.servicemap dt{
+	*display:inline;
+	overflow:hidden;
+	float:left;
+	width:20%;
+	padding:10px;
+	background:#f5f5f3;
+	font:11px '돋움','Dutum';
+	color:#6f6f6f
+}
+.servicemap dd{
+	*display:inline;
+	overflow:hidden;
+	float:left;
+	margin-right:10px;
+	padding:10px;
+}
+
+.servicemap a{
+	color:#555
+}
+.servicemap a:hover{
+	text-decoration:underline
+}
+
+.tbl_style4 .inquiry_class{
+	overflow:hidden;
+}
+.tbl_style4 .inquiry_class li{
+	*display:inline;
+	float:left;
+	overflow:hidden;
+	width:25%;
+}
+
+.inquiry_info{
+	display:block;
+	margin-top:16px;
+	padding-left:10px;
+	font:normal 11px '돋움','Dutum';
+	text-align:right;
+	letter-spacing:-1px;
+	color:#999
+}
+
+
+/* 다운로드 */
+
+.download_game{
+	overflow:hidden;
+	display:block;
+	margin-bottom:20px
+}
+.download_game li{
+	*display:inline;
+	overflow:hidden;
+	float:left;
+	width:268px;
+	height:87px;
+	margin:0 16px 16px 0;
+	background:url(../img/btn_download.gif) left top no-repeat;
+	font:14px '나눔바른고딕', 'NanumBarunGothic';
+	line-height:87px
+}
+.download_game li a{
+	color:#666
+}
+.download_game li a:hover{
+	color:#0d2b4c
+}
+.download_game li i{
+	margin-right:6px
+}
+.download_game li p{
+	*display:inline;
+	overflow:hidden;
+	float:left;
+	margin:10px 12px 0 9px
+}
+
+.download_driver{
+	overflow:hidden;
+	width:99.8%;
+	margin:0 auto;
+	border:1px solid #dcdcde
+}
+.download_driver li{
+	*display:inline;
+	overflow:hidden;
+	float:left;
+	width:30%;
+	margin:30px 1%;
+	border-left:1px solid #dcdcde;
+	text-align:center
+}
+.download_driver li:first-child{
+	margin-left:20px;
+	border-left:0px
+}
+.download_info{
+	overflow:hidden;
+	width:99.8%;
+	margin:20px auto 0;	
+}
+.download_info li{
+	margin-bottom:6px;
+	padding-left:6px;
+	background:url(../../common/img/icon/bullet.gif) left -78px no-repeat;
+	color:#999
+}

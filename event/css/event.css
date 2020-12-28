@@ -1,0 +1,95 @@
+@charset "utf-8";
+@import url(../../common/css/reset.css);
+@import url(../../common/css/layout.css);
+@import url(../../common/css/fonts.css);
+@import url(../../common/css/other.css);
+@import url(../../common/css/button.css);
+@import url(../../common/css/table.css);
+
+/* layout */
+body{
+	font:12px '굴림','Gulim';
+	color:#444
+}
+
+#container{
+	overflow:hidden;
+	width:1180px;
+	margin:0 auto;
+}
+
+#content{
+	overflow:hidden;
+	min-height:450px;
+	margin:40px 0 100px 0
+}
+
+
+#content .eventlist{
+	overflow:hidden
+}
+#content .eventlist li{
+	*display:inline;
+	overflow:hidden;
+	float:left;
+	width:28%;
+	margin:0 2%;
+	border:1px solid #e5e5e5;
+	box-shadow:2px 2px rgba(0,0,0,.05);
+	border-radius:3px
+}
+#content .eventlist p{
+	overflow:hidden;
+	width:300px;
+	margin:16px auto 10px
+}
+#content .eventlist dl{
+	overflow:hidden;
+	font:12px '굴림','Gulim'
+}
+#content .eventlist dt{
+	overflow:hidden;
+	width:90%;
+	margin:0 0 10px 16px;
+	font:bold 15px '돋움','Dutum';
+}
+#content .eventlist dt a{
+	color:#333;
+	letter-spacing:-1px
+}
+#content .eventlist dt a:hover{
+	text-decoration:underline
+}
+#content .eventlist dd {
+	padding-left:16px;
+	color:#999
+}
+#content .eventlist dl .date{
+	margin-top:20px;
+	padding:10px 0 10px 16px;
+	border-top:1px solid #e5e5e5;
+	font-weight:bold;
+	letter-spacing:-1px
+}
+
+.lst_tbl_style3{
+	display:block;
+	width:100% !important;
+	font:13px '나눔바른고딕', 'NanumBarunGothic';
+}
+.lst_tbl_style3 td{
+	width:50%
+}
+.lst_tbl_style3 .title{
+	width:90%;
+	text-align:left
+}
+
+.lst_tbl_style3 dl{
+	font:13px '나눔바른고딕', 'NanumBarunGothic';
+}
+
+.wrap_btn{
+	margin:10px auto 20px;
+}
+

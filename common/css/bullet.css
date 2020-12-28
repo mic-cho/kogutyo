@@ -1,0 +1,72 @@
+/*bullet*/
+.chek_bulet{
+	display:inline;
+	float:left;
+	width:14px;
+	height:20px;
+	background:url(/common/img/icon/bullet.gif) no-repeat 0 -39px;
+}
+.arrow_bulet{
+	display:inline;
+	float:left;
+	width:14px;
+	height:20px;
+	margin-right:6px;
+	background:url(/common/img/icon/arrow.gif) no-repeat 100% -48px;
+}
+/* 아이콘 */
+.ico{display:inline-block;overflow:hidden;background:url(/common/img/sp_ico.png) no-repeat;vertical-align:top;line-height:1000px}
+.ico.chk{width:7px;height:7px;margin:3px 5px 0 0;background-position:0 -25px}
+.ico.i_mark{width:12px;height:13px;margin:2px 5px 0 0;background-position:0 -75px}
+.ico.square{width:2px;height:2px;margin:5px 6px 0 0;background-position:0 -100px}
+.ico.square2{width:3px;height:3px;margin:6px 4px 0 0;background-position:0 -150px}
+.ico.help{width:13px;height:12px;margin-top:-3px;background-position:0 0;vertical-align:middle}
+.ico.arr{width:6px;height:9px;margin:4px 3px 0 0;background-position:0 -50px}
+.ico.arr2{width:3px;height:5px;margin:7px 5px 0 0;background-position:0 -350px}
+.ico.arr3{width:7px;height:11px;background-position:0 -375px}
+.ico.arr4{width:2px;height:4px;margin:3px 4px 0 0;background-position:0 -400px}
+.ico.arr5{width:7px;height:4px;margin:3px 6px 0 0;background-position:0 -725px}
+.ico.arr6{width:3px;height:8px;margin:2px 4px 0 0;background-position:0 -648px}
+.ico.square_chk{width:12px;height:13px;margin:0 3px 0 0;background-position:0 -125px}
+.ico.phone{width:12px;height:17px;margin:3px 0 0 9px;background-position:0 -225px}
+.ico.help2{width:13px;height:12px;background-position:0 -250px;vertical-align:middle} 
+.ico.i_calendar{width:13px;height:13px;margin-top:1px;background-position:0 -275px;vertical-align:middle} 
+.ico.sort_down{width:11px;height:11px;background-position:0 -300px}
+.ico.sort_up{width:11px;height:11px;background-position:-11px -300px}
+.ico.new{width:8px;height:8px;background-position:0 -450px}
+.ico.notice{width:23px;height:13px;background-position:0 -425px}
+.ico.off{width:34px;height:18px;background-position:0 -525px}
+.ico.on{width:34px;height:18px;margin-top:-1px;background-position:0 -550px}
+.ico.won{width:12px;height:10px;margin:1px 3px 0 0;background-position:0 -675px}
+.ico.del{width:14px;height:13px;margin:1px 3px 0 0;background-position:0 -475px}
+.ico.ep{width:12px;height:10px;margin:1px 3px 0 0;background-position:0 -750px}
+
+/* 특수아이콘 151028 CKS_추가 */
+.cash,.money{
+	overflow:hidden;
+	padding-left:15px;
+	background:url(../img/icon/m_cash.gif) left 30% no-repeat;
+	font:11px '돋움','Dotum';
+	color:#888
+}
+.point{
+	overflow:hidden;
+	padding-left:15px;
+	background:url(../img/icon/point.gif) left 30% no-repeat;
+	font:11px '돋움','Dotum';
+	color:#009806
+}
+.poker{
+	overflow:hidden;
+	padding-left:16px;
+	background:url(../../common/img/icon/m_poker.gif) left 30% no-repeat;
+	font:bold 12px '돋움','Dotum';
+	color:#2854bf
+}
+.gostop{
+	overflow:hidden;
+	padding-left:16px;
+	background:url(../../common/img/icon/m_gostop.gif) left 30% no-repeat;
+	font:bold 12px '돋움','Dotum';
+	color:#db0e00
+}

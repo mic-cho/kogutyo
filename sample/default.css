@@ -1,0 +1,38 @@
+﻿@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+@font-face{font-family:'NanumGothic', '나눔고딕'; src:url(NanumGothic.eot); src:local(※), url(NanumGothic.woff) format('woff')}
+
+/*********************************************************************
+*	FONT&DEFUALT
+*********************************************************************/
+
+html, body, form, fieldset, input, h1, h2, h3, h4, h5, ul, ol, p, li, dl, dt, dd, table, td, tr, div, legend{margin:0;padding:0;}
+html, body{width:100%;height:100%;font-family:'NanumGothic', '나눔고딕', '맑은 고딕', 'Malgun Gothic', 돋움, Verdana, Georgia; font-size:100%;color:#333333;}
+ul,ol,li,dl,dt,dd{}
+fieldset{border:solid 0 transparent;display:block;min-width:0;max-width:100%;width:100%;}
+form{display:inline;}
+input,select{vertical-align:middle;}
+img{border:none;vertical-align:middle;text-align:center;margin:0 auto;}
+
+hr,caption{display:none;}
+
+
+/*********************************************************************
+*	LINKS
+*********************************************************************/
+a{text-decoration:none;selector-dummy : expression(this.hideFocus=true);}
+a:link,
+a:visited{color:#444444;}
+a:hover,
+a:active{color:#222222;}
+
+
+dl
+{width:49%;float:left;display:inline;overflow:hidden;margin-right:1%;}
+dt
+{font-weight:bold;padding:3px;background-color:#eee}
+dd
+{margin:0 0 4px 8px;}
+.type2
+{margin:0 0 4px 12px;}
+img
+{display:block;float:left}

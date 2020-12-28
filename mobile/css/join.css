@@ -1,0 +1,247 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(fonts.css);
+@import url(global.css);
+@import url(other.css);
+@import url(button.css);
+@import url(table.css);
+
+a {
+	text-decoration: none;
+
+}
+body {
+	background: #ffffff;
+	font: 16px '나눔바른고딕','NanumBarunGothic';
+	color: #444; 
+}
+
+#container {
+	width: 100%;
+}
+
+#header {
+	overflow:hidden;
+	height:60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1em;
+	background: #321714;
+}
+#header h1 {
+	overflow:hidden;
+	width: 30%;
+}
+#header img {
+	width: 100%;
+	height: auto;
+}
+
+button.login {
+	padding: 0.25em;
+	background: transparent;
+	border: 1px solid #65514f;
+	font: normal 12px 'Dotum', '돋움';
+	color: #998b8a;
+}
+
+h2 {
+	padding: 0.5em 0 0.25em 0;
+	font:bold 1.3em '나눔바른고딕','NanumBarunGothic';
+}
+h3 {
+	padding: 0.5em 0 0.25em 0;
+	margin: 0 1em;
+	font: bold 1em '나눔바른고딕','NanumBarunGothic';
+}
+
+.container-join h2 {
+	padding: 1em 0;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #e9e9e9;
+	text-align: center;
+}
+.container-join button.w100 {
+	width: 90% !important;
+	margin: 1em 5% !important;
+}
+
+.container-terms {
+	overflow: hidden;
+	padding: 1em;
+	margin: 1rem;
+	border-radius: 5px;
+	background: #f4f5f6;
+}
+.container-terms h3 {
+	margin: 0 0 0.5em 0;
+	font-size: 0.9125em;
+	color: #666;
+}
+.container-terms .terms {
+	overflow: scroll;
+	height: 200px;
+	padding: 0.5em;
+	margin-bottom: 1em;
+	border: 1px solid #e9e9e9;
+	border-radius: 5px;
+	background: #ffffff;
+	font-size: 0.87em;
+	color: #666;
+}
+
+.container-terms .terms h1 {
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+
+.container-terms .terms h4 {
+	margin: 20px 0;
+	font-size: 14px;
+}
+
+.container-terms .terms ol > li {
+	margin: 8px 0;
+	line-height: 22px;
+}
+
+.container-terms .terms table {
+	border-collapse: collapse;
+	font-size: 12px
+}
+
+.container-terms .terms table th,
+.container-terms .terms table td {
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+.container-join .welcome {
+	background: #f9f9f9;
+	border-radius: 5px;
+	padding: 2em;
+}
+
+.container-join ul.input-form {
+	padding: 1% 5%;
+}
+.container-join .input-form li {
+	margin-bottom: 1.5em;
+	font-size: 0.875em;
+}
+.container-join .input-form li a {
+	margin-right: 0.5em
+}
+.container-join .input-form li p {
+	margin: 0.5em 0;
+}
+.container-join .input-form li .input {
+	display: flex;
+	align-items: center;
+}
+
+.container-join .input-form li .input input.style1 {
+	flex: 1 1 auto;
+}
+
+.container-join .input-form li button.style1 {
+	margin-left: 0.5em;
+	line-height: 1.5em
+}
+
+.container-login {
+	padding: 5%;
+}
+.container-login .logo {
+	margin: 50px auto 25px;
+	text-align: center;
+}
+.container-login .form {
+	width: 300px;
+	margin: 0 auto;
+}
+.container-login .form p {
+	overflow: hidden;
+	display: flex;
+	width: 100%;
+	margin-bottom: 0.5em;
+	padding: 1px;
+}
+.container-login .form p input {
+	width: 98%;
+	line-height: 35px;
+}
+
+.container-login .menu {
+	overflow: hidden;
+	margin: 50px auto;
+	font-size: 0.875em;
+	text-align: center;
+}
+.container-login .menu li {
+	display: inline-block;
+	padding: 0 1em;
+}
+.container-login .menu li:nth-child(2) {
+	border-left: 1px solid #e9e9e9;
+	border-right: 1px solid #e9e9e9;
+}
+.container-login .menu li a {
+	color: #a1a1a1
+}
+
+.find-id {
+	overflow: hidden;
+	padding: 2em 0;
+	background: #f9f9f9;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+#footer {
+	position: relative;
+	overflow: hidden;
+	padding: 2% 5%;
+	border-top: 20px solid #f0f0f0;
+}
+#footer h4 {
+	padding: 0.25em 0;
+}
+#footer h4 img {
+	width: 100px;
+	height: auto;
+}
+#footer .menu {
+	overflow: hidden;
+	padding: 0.75rem 0;
+	border-top: 1px solid #f0f0f0;
+	font-size: 0.75em;
+}
+#footer .menu li {
+	display: inline-block;
+	padding: 0.25em 0.25em;
+}
+#footer .menu li a {
+	color: #a1a1a1
+}
+
+button.go-top {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid #e9e9e9;
+	background: #ffffff;
+	box-shadow: 0 0 3px #ccc
+}
+
+#footer button.go-top {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}

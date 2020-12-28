@@ -1,0 +1,1 @@
+<%server.Execute("term.asp")%>

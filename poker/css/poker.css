@@ -1,0 +1,287 @@
+@charset "utf-8";
+@import url(../../common/css/reset.css);
+@import url(../../common/css/layout.css);
+@import url(../../common/css/fonts.css);
+@import url(../../common/css/other.css);
+
+/* common */
+
+/* layout */
+body
+{font:12px '굴림','Gulim';color:#444}
+
+/* body_shop */
+.section_best
+{overflow:hidden;height:330px;}
+.section_best .etabs
+{overflow:hidden;margin:0;padding:0;border-bottom:2px solid #3f4249;}
+.section_best .tab
+{display:inline-block;zoom:1;*display:inline;float:left;margin-right:1px;
+font-weight:600;text-align:center;}
+.section_best .tab a
+{display:block;width:132px;height:43px;background:url(../../shop/img/tab.gif) left top no-repeat;
+font:normal 1.2em '나눔바른고딕','NanumBarunGothic';line-height:43px;color:#a0a0a0;outline:none;}
+.section_best .tab a:hover
+{color:#777}
+.section_best .tab.active
+{position:relative;top:1px;background:#fff}
+.section_best .tab a.active
+{background-position:0px -43px;color:#fff}
+
+.tab_avatar ul
+{overflow:hidden;
+display: flex; justify-content: space-between}
+.tab_avatar li
+{*display:inline;float:left;overflow:hidden;margin:10px n0}
+.tab_avatar .avatar
+{overflow:hidden;width:120px;height:160px;margin:10px auto 0;background:#ffffff;border:1px solid #dadada;text-align:center}
+.tab_avatar .avatar img
+{margin-left: -30px;margin-top: -10px}
+.tab_avatar .info
+{overflow:hidden;width:102px;margin:6px auto 4px;padding:8px 0;
+background:#fbfbfb;text-align:center}
+.tab_avatar .info strong
+{display:block;overflow:hidden;color:#000;text-align:center}
+.tab_avatar .info span
+{overflow:hidden;margin:8px 0;padding-left:14px;background:url(../../common/img/icon/money.gif) left 30% no-repeat;
+font:11px '돋움','Dotum';color:#898989;}
+.tab_avatar .info i
+{display:block;overflow:hidden;margin-top:4px;font:11px '돋움','Dotum';color:#898989;letter-spacing:-1px}
+
+.tab_item ul
+{overflow:hidden;}
+.tab_item li
+{*display:inline;float:left;overflow:hidden;width:12.5%;margin:10px 18px 0 18px}
+.tab_item .item
+{margin:10px auto 0;text-align:center}
+.tab_item .item img
+{margin:0 auto;}
+.tab_item .info
+{overflow:hidden;margin:6px auto 4px;padding:8px 0;
+background:#fbfbfb;text-align:center}
+.tab_item .info strong
+{display:block;overflow:hidden;color:#000;text-align:center}
+.tab_item .info span
+{overflow:hidden;margin:8px 0;padding-left:14px;background:url(../../common/img/icon/money.gif) left 30% no-repeat;
+font:11px '돋움','Dotum';color:#898989;}
+.tab_item .info i
+{display:block;overflow:hidden;width:90%;margin:4px auto 0;padding-top:6px;background:url(../../common/img/icon/dot1.gif) left top repeat-x;
+font:11px '돋움','Dotum';color:#898989;letter-spacing:-1px;text-align:left}
+
+.tab_item {
+	border: 1px solid #eee;
+}
+.tab_item p {
+	height: 270px;
+	line-height: 270px;
+	text-align: center;
+	vertical-align: middle;
+	font-size:1.4em;
+	font-family: '나눔바른고딕','NanumBarunGothic';
+}
+
+.tab_avatar .btn,.tab_item .btn
+{display:block;overflow:hidden;width:38px;height:19px;margin:0 auto;
+background:url(../../common/img/btn/normal.gif) 2px top no-repeat;font:11px '돋움','Dotum';line-height:19px;text-align:center;font-weight:normal;color:#555;letter-spacing:-1px}
+.tab_avatar .btn:hover,.tab_item .btn:hover
+{color:#333 !important}
+
+.section_pass
+{*display:inline;float:left;width:378px;margin-bottom:30px;}
+.section_pass img
+{border:1px solid #ddd}
+.section_point
+{*display:inline;float:right;width:481px}
+
+.section_pass h3, .section_point h3
+{padding:0.4em 0;font:15px '나눔바른고딕','NanumBarunGothic';}
+
+.section_banner
+{display:block;clear:both;}
+.section_banner h3
+{display:none}
+
+.license
+{position:relative;overflow:visible;height:1px;display: none}
+.license p
+{position:absolute;right:0;width:356px;height:60px;margin-top:16px;
+background:url(../../common/img/icon/gamegrade.gif) left bottom no-repeat;text-align:right}
+.license p img
+{}
+
+/* gamemain */
+.gamemain
+{position:relative;overflow:hidden;width:100%;margin:0 auto 20px}
+
+.gamemain .menu
+{*display:inline;float:right;overflow:hidden;margin-bottom:60px}
+.gamemain .menu li
+{*display:inline;float:left;overflow:hidden;margin-top:40px;padding:0 10px 0 11px;background:url(../img/menu.png) left -5px no-repeat;}
+.gamemain .menu li a
+{display:block;overflow:hidden;height:21px;
+color: #fff;font:bold 15px '나눔바른고딕','NanumBarunGothic';
+text-shadow: 2px 2px #0b1c26;}
+
+.submenu
+{overflow:hidden;position:absolute;right:0px;top:74px;padding:6px;
+background:url(../../common/img/icon/trans_b_30.png) left top repeat-x;}
+.submenu li
+{*display:inline;float:left;overflow:hidden;padding:0 6px;}
+
+.select_game
+{overflow:hidden;clear:both;width:99%;}
+.select_game li
+{*display:inline;overflow:hidden;float:right;width:170px;height:54px;margin:0 0px;}
+
+.select_game a
+{display:none;width:100%;height:54px;
+line-height:0;text-indent:-9999px}
+.select_game .holdum a:hover
+{background-position:0px -54px}
+.select_game .baduki a
+{background-position:-200px 0px}
+.select_game .baduki a:hover
+{background-position:-200px -54px}
+
+.channel
+{overflow:hidden;clear:both;width:100%;height:134px;
+background:url(../img/channel_bg.png) center top no-repeat;}
+.channel li
+{*display:inline;overflow:hidden;float:left;width:161px;height:108px;margin:14px 3px 0 3px}
+.channel li a
+{display:block;width:100%;height:108px;line-height:0;text-indent:-9999px;}
+.channel li a:hover
+{background-position:0px -108px !important}
+.channel .off, .channel .off:hover
+{background-position:0px -216px !important;cursor:default}
+.channel li:first-child
+{margin:14px 3px 0 8px}
+
+.gamemain .banner{
+	overflow:hidden;
+	position:absolute;
+	top:44px;
+	left:280px
+}
+
+#viewchannel{
+	position:absolute;
+	top:98px;
+	right:10px;
+	width:300px;
+	background:#ffffff;
+	border:3px solid #333
+}
+#viewchannel caption{
+	display:none
+}
+#viewchannel h3{
+	overflow:hidden;
+	width:98%;
+	padding:1%;
+	background:#333333;
+	font:11px '돋움','Dutum';
+	color:#fff;
+	letter-spacing:-1px
+}
+#viewchannel h3 a{
+	overflow:hidden;
+	float:right;
+	width:11px;
+	height:11px;
+	margin:0px 0px 0 0;
+	background:url(../../pop/img/bg.gif) left -101px no-repeat;
+	font-size:0px
+}
+#viewchannel h3 a:hover {
+	background-position:0px -112px
+}
+#viewchannel table{
+	width:96%;
+	margin:2% auto;
+	border:1px solid #ccc;
+	font:11px '돋움','Dutum';
+}
+#viewchannel table th{
+	padding:2px;
+	background:#f9f9f9;
+	color:#777
+}
+#viewchannel table td{
+	padding:4px;
+	border:1px solid #ccc;
+	color:#ff0000
+}
+#viewchannel table .cn{
+	color:#000;
+	text-align:center
+}
+
+/* holdum */
+.container_holdum
+{background:url(../img/visual_fours.jpg) center top no-repeat}
+
+.container_holdum h2
+{*display:inline;overflow:hidden;position:absolute;top:15px;left:0px;float:left;width:214px;height:138px}
+.container_holdum h2 a
+{display:block;width:100%;height:100%;}
+
+.container_holdum .submenu li a
+{color:#3e77ac;letter-spacing:-1px}
+.container_holdum .submenu li a:hover
+{color:#478bcb}
+
+.container_holdum .select_game .holdum
+{display:none}
+
+.container_holdum .channel .c1_1 a
+{background:url(../img/channel_room_lv1.gif) left top no-repeat}
+.container_holdum .channel .c1_2 a
+{background:url(../img/channel_room_lv2.gif) left top no-repeat}
+.container_holdum .channel .c2_1 a
+{background:url(../img/channel_room_lv3.gif) left top no-repeat}
+.container_holdum .channel .c2_2 a
+{background:url(../img/channel_room_lv4.gif) left top no-repeat}
+.container_holdum .channel .c4 a
+{background:url(../img/channel_room_lv5.gif) left top no-repeat}
+.container_holdum .channel .c5 a
+{background:url(../img/channel_room_lv6.gif) left top no-repeat}
+.container_holdum .channel .free a
+{background:url(../img/channel_room_free.gif) left top no-repeat}
+
+/* baduki */
+.container_baduki
+{background: url(../img/visual_baduki.jpg) center top no-repeat}
+.container_fours
+{background: url(../img/visual_fours.jpg) center top no-repeat}
+
+.container_baduki h2
+{*display:inline;overflow:hidden;position:absolute;top:20px;left:0px;float:left;width:214px;height:138px;}
+.container_baduki h2 img {
+	width: 100%;
+}
+.container_fours h2
+{width:205px;height:144px;}
+
+.container_baduki .submenu li a
+{color:#0c837d;letter-spacing:-1px}
+.container_baduki .submenu li a:hover
+{color:#0e938c}
+
+.container_baduki .select_game .baduki
+{display:none}
+
+.container_baduki .channel .c1_1 a
+{background:url(../img/channel_room_lv1.gif) left top no-repeat}
+.container_baduki .channel .c1_2 a
+{background:url(../img/channel_room_lv2.gif) left top no-repeat}
+.container_baduki .channel .c2_1 a
+{background:url(../img/channel_room_lv3.gif) left top no-repeat}
+.container_baduki .channel .c2_2 a
+{background:url(../img/channel_room_lv4.gif) left top no-repeat}
+.container_baduki .channel .c4 a
+{background:url(../img/channel_room_lv5.gif) left top no-repeat}
+.container_baduki .channel .c5 a
+{background:url(../img/channel_room_lv6.gif) left top no-repeat}
+.container_baduki .channel .free a
+{background:url(../img/channel_room_free.gif) left top no-repeat}

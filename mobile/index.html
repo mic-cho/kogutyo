@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" xml:lang="ko">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="온라인게임,모바일게임,게임포털,보드게임">
+<!-- <meta name="robots" content="index,follow" /> -->
+<!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" /> -->
+
+<title>::고구려게임::</title>
+
+<link rel="stylesheet" type="text/css" href="css/default.css">
+
+<script src="js/jquery_ver/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="js/flexslider/flexslider.css" type="text/css" media="screen" />
+<script src="js/flexslider/jquery.flexslider.js" type="text/javascript"></script>
+<script src="js/flexslider/modernizr.js" type="text/javascript"></script>
+
+<script src="js/easytabs/jquery.easytabs.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+function toggle_layer() {
+	if($("#viewcompany").css("display") == "none"){
+		$("#viewcompany").show();
+	}else{
+		$("#viewcompany").hide();
+	}
+}
+
+</script>
+
+</head>
+<body>
+<div id="container">
+	<div id="header">
+     	<!-- case1-1 : 로그인 전 -->
+		<h1><a href="/"><img src="img/logo.png"></a></h1>
+		<!-- case1-2 : 로그인 후 아래 주석처리된 태그로 화면/기능 처리 -->
+<!-- 		<h1><a href="/"><img src="img/logo.png"></a></h1>
+		<ul class="gnb member">
+		  <li><a href="member/info_main.asp">내정보</a></li>
+		  <li><a href="logout.asp">로그아웃</a></li>
+		</ul> -->
+	</div>
+			
+    <div id="content">
+
+    	<script type="text/javascript">
+	
+			$(window).load(function() {
+			  $('.flexslider').flexslider({
+			    animation: "slide",
+			    controlsContainer: $(".custom-controls-container"),
+			    customDirectionNav: $(".custom-navigation a")
+			  });
+			});
+
+		</script>
+
+    	<div class="section_banner">  		
+    		<div class="flexslider">
+				<ul class="slides">
+					<li><img src="img/index/visual1.png"></li>
+					<li><img src="img/index/visual2.png"></li>
+				</ul>
+	    	</div>
+	    </div>
+        <div class="section_mobile"> 
+          <h2>모바일 게임</h2>
+          <ul>
+            <li>
+        		<p class="thumbnail">
+            		<img src="img/index/game_mobile1.jpg" alt="고구려포커" title="">
+            	</p>
+            	<div class="item">
+          			<p>포커</p>
+            		<strong>고구려포커</strong>
+            		<div>
+						<a href="#" target="_blank"><img src="img/icon/down-android.gif"></a>
+						<a href="#" target="_blank"><img src="img/icon/down-apple.gif"></a>
+            		</div>
+            	</div>
+           	</li>
+            <li>
+            	<p class="thumbnail">
+	            	<img src="img/index/game_mobile2.jpg" alt="고구려맞고" title="">
+	            </p>
+	           	<div class="item">
+          			<p>고스톱</p>
+          			<strong>고구려맞고</strong>
+	          		<div>
+						<a href="#" target="_blank"><img src="img/icon/down-android.gif"></a>
+						<a href="#" target="_blank"><img src="img/icon/down-apple.gif"></a>
+	        		</div>
+	        	</div>
+	        </li>
+            <li>
+            	<p class="thumbnail">
+            		<img src="img/index/game_mobile3.jpg" alt="고구려홀덤" title="">
+            	</p>
+				<div class="item">
+          			<p>포커</p>
+            		<strong>고구려홀덤</strong>
+ 	          		<div>
+						<a href="#" target="_blank"><img src="img/icon/down-android.gif"></a>
+						<a href="#" target="_blank"><img src="img/icon/down-apple.gif"></a>
+	        		</div>           		
+            	</div>
+            </li>
+            <li>
+            	<p class="thumbnail">
+            		<img src="img/index/game_mobile4.jpg" alt="고구려슬롯" title="">
+            	</p>
+				<div class="item">
+          			<p>포커</p>            		
+        			<strong>고구려슬롯</strong>
+	          		<div>
+						<a href="#" target="_blank"><img src="img/icon/down-android.gif"></a>
+						<a href="#" target="_blank"><img src="img/icon/down-apple.gif"></a>
+	        		</div>        			
+            	</div>
+            </li>
+          </ul>
+      </div>
+
+      <div class="section_pc">
+		<h2>PC 게임</h2>
+			<ul>
+				<li>
+					<p class="thumbnail">
+						<img src="img/index/pc_fours.jpg">
+					</p>
+					<div class="item">
+						<a href="#">
+							<p>포커</p>
+							<strong>사계절바둑이</strong>
+						</a>
+					</div>
+				</li>
+				<li>
+					<p class="thumbnail">
+						<img src="img/index/pc_baduki.jpg">
+					</p>
+					<div class="item">
+						<a href="#">
+							<p>포커</p>
+							<strong>고구려바둑이</strong>
+						</a>
+					</div>
+				</li>
+				<li>
+					<p class="thumbnail">
+						<img src="img/index/game_mobile3.jpg">
+					</p>
+					<div class="item">
+						<a href="#">
+							<p>포커</p>
+							<strong>고구려홀덤</strong>
+						</a>
+					</div>
+				</li>
+				<li>
+					<p class="thumbnail">
+						<img src="img/index/pc_baccarat.jpg">
+					</p>
+					<div class="item">
+						<a href="#">
+							<p>포커</p>
+							<strong>고구려바카라</strong>
+						</a>
+					</div>
+				</li>
+				<li>
+					<p class="thumbnail">
+						<img src="img/index/game_mobile2.jpg">
+					</p>
+					<div class="item">
+						<a href="#">
+							<p>고스톱</p>
+							<strong>고구려맞고</strong>
+						</a>
+					</div>
+				</li>
+				<li>
+					<p class="thumbnail">
+						<img src="img/index/pc_sutda.jpg">
+					</p>
+					<div class="item">
+						<a href="#">
+							<p>고스톱</p>
+							<strong>고구려섯다</strong>
+						</a>
+					</div>
+				</li>
+				<li>
+					<p class="thumbnail">
+						<img src="img/index/pc_3gostop.jpg">
+					</p>
+					<div class="item">
+						<a href="#">
+							<p>고스톱</p>
+							<strong>고구려3인고스톱</strong>
+						</a>
+					</div>
+				</li> 																							
+			</ul>
+      </div>
+
+    </div>
+
+</div>
+
+<div id="footer">
+
+	<ul class="quick">
+		<li><a href="login.html">로그인</a></li>
+		<li><a href="join.html">회원가입</a></li>
+		<li><a href="#">PC버전</a></li>
+	</ul>
+
+	<div class="section_company">
+
+		<h4 class="logo"><img src="img/footer-logo.png"></h4>
+
+		<button type="button" onclick="javascript:toggle_layer();">사업자 정보 ></button>
+
+	</div>
+
+	<div id="viewcompany" style="display: none;">
+		<dl>
+	      <dt>상호 : </dt>
+	      <dd>고구려</dd>
+	    </dl>
+	    <dl>
+	      <dt>주소 : </dt>
+	      <dd>서울특별시 강남구 역삼동 논현로 72길, 16 초원빌딩 4층</dd>
+	    </dl>
+	    <dl>
+	      <dt>TEL : </dt>
+	      <dd>02-2038-8925</dd>
+	      <dt>사업자등록번호 : </dt>
+	      <dd>113-86-88650</dd>
+	      <dt>통신판매업신고번호 : </dt>
+	      <dd>제2019-서울강남-3022호</dd>
+	    </dl>
+	</div>
+
+	<ul class="menu">
+		<li><a href="#">사이트이용약관</a></li>
+		<li><a href="#">개인정보취급방침</a></li>
+		<li><a href="#">청소년보호정책</a></li>
+		<li><a href="#">고객센터</a></li>
+	</ul>
+
+	<button class="go-top"><img src="img/icon/up.gif"></button>
+
+</div>
+
+</body>
+</html>
